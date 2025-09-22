@@ -1,0 +1,81 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f6f9;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #007BFF;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 200px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007BFF;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.quote-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-left: 5px solid #007BFF;
+  border-radius: 5px;
+  min-height: 100px;
+}
+
+#value {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #007BFF;
+}
+
+#value1 {
+  font-style: italic;
+  color: #555;
+}
